@@ -32,6 +32,4 @@ app.get('/' , (req ,res)=> {
     res.send("Server up and running")
 })
 
-httpServer.listen(process.env.PORT , ()=> {
-    console.log(`Server is running`)
-});
+export default httpServer ;
